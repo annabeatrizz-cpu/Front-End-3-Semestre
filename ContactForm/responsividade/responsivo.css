@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: burlywood;
+}
+
+/*BreakPoints*/
+
+/*Tablet < 992px (768 - 991) */
+
+@media screen and (max-width: 991px) {
+  h1{
+    color: brown;
+  }
+
+  img{
+    display: none;
+  }
+    
+}
+
+h1{
+    color: violet;
+}
+
+img{
+    width: 200px;
+}
+
+
+
+/*Mobile < 768 (opx - 767px) */
+
+@media screen and (max-width: 767px){
+
+    h1{
+        background-color: blueviolet;
+        color: beige;
+    }
+    
+
+    img{
+        display: block;
+    }
+}

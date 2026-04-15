@@ -1,0 +1,175 @@
+@font-face{
+    font-family: Architect;
+    src: url(./fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: linear-gradient(to right bottom, #18a2c9, #72c3bd);
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+   /* border: 1px solid white ;*/
+}
+
+.container--flex--column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding: 10px 0;
+   /* height: 80px;*/
+  /*  border: 1px solid salmon;*/
+}
+
+
+.header__logo{
+   
+    width:100px;
+
+}
+
+.header__title{
+    font-family: Architect;
+
+    color: #DED27C;
+}
+
+.header__text{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+.contact-form{
+  /*  border: 1px solid #DED27C;*/
+    padding: 20px 0 ;
+}
+
+.contact-form__linha{
+    display: flex;
+   /* border: 1px solid red;*/
+   
+}
+
+
+.contact-form__col-a{
+    width: 10%;
+    align-items: center;
+    display: flex;
+
+}
+
+.contact-form__col-a--label-topo{
+
+    align-items: flex-start;
+}
+
+.contact-form__col-b{
+   display: flex;
+    width: 90%;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.contact-form__label{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.contact-form__input{
+    color: #18a2c9;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.04s, color 0.4s, border 0.4s;
+}
+
+.contact-form__input--metade{
+    width: 48%;
+    height: 35px;
+}
+
+.contact-form__input--inteiro{
+    width: 100%;
+    height: 35px;
+}
+
+
+.contact-form__input:focus{
+
+    background-color: #72c3bd;
+    color: white;
+    border: 1px solid white;
+}
+
+.contact-form__input--terco{
+    width: 33%;
+    height: 35px;
+}
+
+.contact-form__input--quarto{
+    width: 49%;
+    height: 35px;
+}
+
+.contact-form__input--meio{
+    width: 24%;
+    height: 35px;
+}
+
+.contact-form__input--tamanho3{
+    width: 100%;
+    height: 200px;
+}
+
+.contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-button__cadastro{
+    width: 400px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 3px;
+}
+
+.contact-button__entrar{
+    width: 400px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 3px;
+}

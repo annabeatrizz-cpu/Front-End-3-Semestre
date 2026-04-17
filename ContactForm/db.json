@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Anna",
+      "sobrenome": "Arenas",
+      "email": "anna.arenas@example.com"
+    },
+    {
+      "nome": "Anna",
+      "sobrenome": "Bia",
+      "email": "Anna.Bia@example.com",
+      "id": "96s6PAHnrqQ"
+    },
+    {
+      "nome": "Rafa",
+      "sobrenome": "Artico",
+      "email": "Rafa.Artico@example.com",
+      "id": "OYthwJnbxwU"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Cordeiro",
+      "email": "Maria.Cordeiro@example.com",
+      "id": "QJjwpL5dUsk"
+    },
+    {
+      "nome": "Bia",
+      "sobrenome": "Paz",
+      "email": "Bia.Paz@example.com",
+      "id": "V3mqfJr6itY"
+    },
+    {
+      "nome": "Anna",
+      "sobrenome": "Beatriz",
+      "id": "3RuR2YNIzB4"
+    },
+    {
+      "nome": "Anne",
+      "sobrenome": "Nicole",
+      "id": "LsgtVsQkVBw"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "4dq1VuPLepQ"
+    },
+    {
+      "nome": "Lapis",
+      "quantidade": "5",
+      "preco": "2,00",
+      "id": "4OJgSIwJh0E"
+    },
+    {
+      "nome": "Borracha",
+      "quantidade": "6",
+      "preco": "2,50",
+      "id": "qrIJ9iq-BXo"
+    },
+    {
+      "nome": "Caderno",
+      "quantidade": "4",
+      "preco": "20,00",
+      "id": "TOac_PRADjM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

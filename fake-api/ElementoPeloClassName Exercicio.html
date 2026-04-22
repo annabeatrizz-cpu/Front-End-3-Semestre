@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .conrsim{
+            color: red;
+        }
+
+        .cornao{
+            color: grey;
+        }
+        select option.conrsim{
+            color: red;
+        }
+        select option.cornao{
+            color: grey;
+        }
+        
+        
+
+    </style>
+  
+</head>
+<body>
+    <input type="text" id="fruta" placeholder="digite o nome da Fruta">
+    <select name="" id="nomeClasse">
+    <option value="">Selecione</option>
+    <option value="conrsim" class="conrsim">CorSim</option>
+    <option value="cornao" class="cornao">CorNao</option>
+    </select>
+    x
+    <button onclick="CadastrarFruta()"> Cadastrar</button>
+    <h1>Frutas</h1>
+    <ul id="listarFrutas">
+    <li class="conrsim">Amora</li>
+    </ul>
+
+  <script>
+    function CadastrarFruta(){
+        const fruta = document.getElementById("fruta").value;
+        const nomeClasse = document.getElementById("nomeClasse").value;
+        const listarFrutas = document.getElementById("listarFrutas");
+
+        if(fruta.trim().length == 0 || nomeClasse.length == 0){
+            alert("Preencha todos os campos: fruta e nome da classe");
+            return false;
+        }
+
+        listarFrutas.innerHTML += `<li class="${nomeClasse}">${fruta}</li>`;
+
+        // console.log(cornoes);
+        // console.log(cornoes[0]);
+        // console.log(cornoes[0].textContent);
+
+
+    //     for (let i = 1; i < cornoes.length; i++)
+    // {
+    //     const element = (cornoes[i].textContent);
+    // }
+    
+
+    }
+  </script>
+</body>
+</html>

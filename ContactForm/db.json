@@ -89,6 +89,12 @@
       "quantidade": "4",
       "preco": "20,00",
       "id": "TOac_PRADjM"
+    },
+    {
+      "nome": "Caderno",
+      "quantidade": "4",
+      "preco": "20,00",
+      "id": "KKSakUKJOEY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -9,5 +9,159 @@
       "id": "Y6rJ8HT4m-4"
     }
   ],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "RF8eojRU3m0"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "Od3IeZrsWco"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "PvwzaV3gMP0"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "06xXYOHQM8I"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "LASJwBy7ffU"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "LWfIoHjhbpo"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "G_3LAP0gr1k"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "gcrQkQ7RvHU"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "4L9pHZFgBXI"
+    },
+    {
+      "nome": "Anna",
+      "altura": 1.6,
+      "peso": 53,
+      "IMC": 20.703124999999996,
+      "textoSituacao": "Saudável",
+      "id": "KvcqeFAOAsk"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "sdOgVcnbOAw"
+    },
+    {
+      "nome": "Rafa",
+      "altura": 1.65,
+      "peso": 60,
+      "IMC": 22.03856749311295,
+      "textoSituacao": "Saudável",
+      "id": "SdoHT9U6mFM"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "69WmEgN2cg8"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "fraGSagbVZ0"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "sSTqxoywRmg"
+    },
+    {
+      "nome": "Bia",
+      "altura": 1.6,
+      "peso": 53,
+      "IMC": 20.703124999999996,
+      "textoSituacao": "Saudável",
+      "id": "Ekk-FQZC9Rs"
+    },
+    {
+      "nome": "Bia",
+      "altura": 1.6,
+      "peso": 53,
+      "IMC": 20.703124999999996,
+      "textoSituacao": "Saudável",
+      "id": "T1UXrbDeLmo"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "TvodFrA1dV4"
+    },
+    {
+      "nome": "Anna",
+      "altura": 1.6,
+      "peso": 53,
+      "IMC": 20.703124999999996,
+      "textoSituacao": "Saudável",
+      "id": "sVWg_3PbFOM"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

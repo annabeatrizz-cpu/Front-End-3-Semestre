@@ -34,25 +34,14 @@ function calcular(params) {
     const retorno = cadastrarNaAPI(objIMC);
 
     if (retorno) {
-        const tabela = document.getElementById("cadastro");
+      buscarIMCs();
 
 
-        //toFixed mostra só duas casas depois da virgula
-        listar.innerHTML +=
-            `<tr>
-        <td>${nome}</td>
-        <td>${altura}</td>
-        <td>${peso}</td>
-        <td>${IMC.toFixed(2)}</td> 
-        <td>${textoSituacao}</td>
-        </tr>`;
 
    document.getElementById("nome").value = "";
    document.getElementById("altura").value = "";
    document.getElementById("peso").value = "";
-   document.getElementById("IMC").value = "";
-   document.getElementById("IMC").value = "";
-   document.getElementById("textoSituacao").value = "";
+ 
 
     alert(`${nome} foi cadastrado no banco:
             Nome: ${nome}
@@ -68,7 +57,7 @@ function calcular(params) {
 
 
 
-}//fim da função calcular
+}//fim da função calcular   
 
 async function cadastrarNaAPI(objetoIMC) {
     //chamar o fetch e fazer o POST
@@ -126,7 +115,19 @@ async function buscarIMCs(){
         const retorno = await fetch("http://localhost:3000/imc")
         const dadosRetornados = await retorno.json();
 
+
+
         console.log(dadosRetornados);
+       
+        
+        // ordena pelo nome em ordem crescente
+
+        dadosRetornados.sort( (a,b) => {
+        return a.nome.localeCompare(b.nome);
+
+
+    });
+
          
         const tabela = document.getElementById("cadastro")
         let template = "";

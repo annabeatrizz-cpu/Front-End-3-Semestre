@@ -1,0 +1,21 @@
+{
+  "produtos": [
+    {
+      "nome": "Notebook 3",
+      "descricao": "Notebook Gamer.2",
+      "quantidade": 1,
+      "preco": 500,
+      "imagem": "Imagem.jpg",
+      "id": "2"
+    },
+    {
+      "nome": "note5",
+      "descricao": "Notebook Gamer.2",
+      "quantidade": 8,
+      "preco": 900,
+      "imagem": "Imagem.jpg",
+      "id": "fzSs-gXxFOA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
